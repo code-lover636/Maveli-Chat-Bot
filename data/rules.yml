@@ -1,0 +1,120 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say who is your creator anytime the user says made
+  steps:
+  - intent: made
+  - action: utter_made
+
+- rule: Say about onam anytime user say onam
+  steps:
+  - intent: onam
+  - action: utter_onam
+
+- rule: Say about family anytime user say family
+  steps:
+  - intent: family
+  - action: utter_family
+
+- rule: Say name anytime user say name
+  steps:
+  - intent: name
+  - action: utter_name
+
+- rule: Say onam story anytime user say story
+  steps:
+  - intent: story
+  - action: utter_story
+
+- rule: Say about rule anytime user say rule
+  steps:
+  - intent: rule
+  - action: utter_rule
+
+- rule: Say pathalam anytime user say pathalam
+  steps:
+  - intent: pathalam
+  - action: utter_pathalam
+
+- rule: Say onam celebration anytime user say celebration
+  steps:
+  - intent: celebration
+  - action: utter_celebration
+
+- rule: Say about pookalam anytime user say pookalam
+  steps:
+  - intent: pookalam
+  - action: utter_pookalam
+
+- rule: Say about pulikali anytime user say pulikali
+  steps:
+  - intent: pulikali
+  - action: utter_pulikali
+
+- rule: Say date anytime user say date
+  steps:
+  - intent: date
+  - action: utter_date
+
+- rule: Say story of narasimha anytime user say narasimha
+  steps:
+  - intent: narasimha
+  - action: utter_narasimha
+
+- rule: Say age anytime user say age
+  steps:
+  - intent: age
+  - action: utter_age
+
+- rule: Say about democracy anytime user say democracy
+  steps:
+  - intent: democracy
+  - action: utter_democracy
+
+- rule: Say about technology anytime user say technology
+  steps:
+  - intent: technology
+  - action: utter_technology
+
+- rule: Say about new in pathalam anytime user say about new in pathalam
+  steps:
+  - intent: new_in_pathalam
+  - action: utter_new_in_pathalam
+
+- rule: Say about route anytime user say route
+  steps:
+  - intent: route
+  - action: utter_route
+
+- rule: Say about onasadhya anytime user say onasadhya
+  steps:
+  - intent: onasadhya
+  - action: utter_onasadhya
+
+- rule: Say happy onam anytime user say happy onam
+  steps:
+  - intent: happyonam
+  - action: utter_happyonam
+
+- rule: Say I am not bad anytime user say asura
+  steps:
+  - intent: asura
+  - action: utter_asura
+
+- rule: Say advice anytime user say advice
+  steps:
+  - intent: advice
+  - action: utter_advice
+
+

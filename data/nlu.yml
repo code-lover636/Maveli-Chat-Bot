@@ -1,0 +1,346 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hi maveli
+    - hi mahabali
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+  
+- intent: age
+  examples: |
+    - how old are you?
+    - when was you born?
+    - what is your age?
+    - at what time period did you ruled?
+    - at what time period where you on earth?
+    - at what time period did you live?
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - thank you
+    - thanks
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - i don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - i am feeling very good
+    - i am great
+    - i am amazing
+    - i am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - i am sad
+    - i don't feel very well
+    - i am disappointed
+    - super sad
+    - i'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am i talking to a bot?
+    - am i talking to a human?
+    - what are you?
+  
+- intent: made
+  examples: |
+    - who made you?
+    - who is your creator?
+    - who is your owner?
+    - where is your owner?
+    - who programmed you?
+    - who created you?
+    - what languages are used to make you?
+    - how are you programmed?
+    - how did your creator made you?
+
+- intent: onam
+  examples: |
+    - what is onam?
+    - why is onam so great?
+    - why onam is one of the biggest festival in kerala?
+    - can you explain the cultural and historical importance of the onam festival in kerala?
+    - what is the significance of onam?
+    - why onam is grandly celebrated?
+
+- intent: story
+  examples: |
+    - what is your story?
+    - can you provide more details about the legend of king maveli and lord vamana?
+    - tell me a story?
+    - what is the story of onam?
+    - what is the story behind onam?
+    - what is the connection between you and onam?
+    - how are maveli and onam related?
+    - tell me a story about kerala?
+    - can you tell me a story?
+    - why maveli is so popular?
+
+- intent: name
+  examples: |
+    - who are you?
+    - who is indrasenan?
+    - who is maveli?
+    - who is mahabali?
+    - what is your name?
+    - what is maveli's real name?
+    - according to hindu mythology wha is your real name?
+    - what is your original name?
+    - what is maveli's actual name?
+    - what is your different names?
+
+
+- intent: family
+  examples: |
+    - what is your grandfather?
+    - was prahlada your grandfather?
+    - are you the grandson of prahlada?
+    - do you know prahlada?
+    - who is prahlada?
+    - tell me about your family?
+    - are you related to prahlada?
+    - are you related to kashyapa?
+    - do you know kashyapa?
+    - tell me about your ancestors?
+    - explain your family tree
+
+- intent: narasimha
+  examples: |
+    - who is narasimha?
+    - what is the relation between you and narasimha?
+    - whom did narasimha killed?
+    - what is the relation between prahlada and narasimha?
+    - what is the relation between your grandfather and narasimha?
+    - tell me the story of hiranyakashipu?
+    - who killed hiranyakashipu?
+    - why did narasimha killed hiranyakashipu?
+
+- intent: rule
+  examples: |
+    - why are you so noble?
+    - how was kerala?
+    - how was kerala when you ruled?
+    - did you rule kerala?
+    - what is your significance in kerala?
+    - tell me about your ruling?
+    - what makes you a good king?
+    - why people of kerala worship you?
+    - why were you a good king?
+    - are you good?
+    - what made vamana sent you to pathalam?
+    - why were the gods angry at you?
+    - why did vishnu come to see you?
+    - what did vishnu do to you?
+    - why did vamana asked you for land?
+    - what scared the gods?
+
+- intent: pathalam
+  examples: |
+    - how are you?
+    - when are you coming to see us?
+    - where are you now?
+    - when will you come back?
+    - when will you come to earth?
+    - are you in pathalam now?
+    - are you in kerala now?
+    - what are you doing now?
+    - what is your location?
+    - where is pathalam?
+    - will you come back from pathalam?
+
+- intent: celebration
+  examples: |
+    - what is your favourite holiday?
+    - how do people in kerala celebrate onam?
+    - tell me about onam celebrations in kerala?
+    - how is onam celebrated?
+    - how good is onam?
+    - what people do during onam?
+    - what is the speciality of dress worn during onam days?
+    - what is onakodi kodi?
+    - why is it important to wear new dress in onam?
+    - what are the main customs and traditions associated with the festival of onam?
+    - are there any specific foods or dishes that are traditionally prepared during onam?
+    - what is the role of kathakali dance in onam celebrations related to king maveli?
+    - are there any specific rituals or ceremonies dedicated to king maveli during onam?
+    - how has the story of king maveli influenced kerala's art, literature, and music?
+    - are there any regional variations or adaptations of the maveli story in kerala?
+    - can you explain the importance of boat races, especially the vallamkali, during onam?
+    - what is the traditional attire worn during onam celebrations, and why is it significant?
+
+- intent: pookalam
+  examples: |
+    - what is the significance of the "pookalam" (flower rangoli) during onam?
+    - how do people in kerala typically decorate their homes and surroundings for onam?
+    - tell me about pookalam.
+    - what is pookalam?
+    - do people in kerala use flowers to decorate their houses?
+    - why is pookalam important?
+    - during onam how do people decorate their homes?
+    - why flowers are important in onam celebrations?
+    - what is the relation between onam and flowers?
+
+- intent: pulikali
+  examples: |
+    - what is the significance of pulikali during onam?
+    - why is pulikali important?
+    - name some artforms related to onam.
+    - tell me about art and onam.
+    - tell me about pulikali.
+    - what is pulikali?
+
+- intent: onasadhya
+  examples: |
+    - what is the significance of onasadhya feast?
+    - why is feast is so important in onam?
+    - what is your favourite food?
+    - what is onasadhya sadhya onam feast?
+    - tell me about onasadhya sadhya feast.
+    - tell me about food during onam days.
+
+- intent: happyonam
+  examples: |
+    - happy onam
+    - have a great onam
+    - enjoy this onam
+    - have a great time this onam.
+    - wishing you a great onam
+
+- intent: date
+  examples: |
+    - how is onam and panchangam related?
+    - at what malayalam month is onam celebrated?
+    - at what date is onam?
+    - according to gregorian calendar when is onam?
+    - where is onam celebrated?
+    - when is onam?
+    - what are the key dates and duration of the onam festival?
+
+- intent: democracy
+  examples: |
+    - how is kerala now?
+    - what is your thoughts on new kerala?
+    - are you happy with the new rule?
+    - what is your thoughts on democracy
+    - what do you prefer democracy or monarchy?
+    - is democracy better than monarchy
+    - what is the difference between kerala under your rule and new rule? 
+    - how kerala has changed?
+    - do you like new rule in kerala?
+    - what is your opinion about the new govt government?
+  
+- intent: technology
+  examples: |
+    - what do you think of our new technology?
+    - what is your opinion about technology?
+    - how do you think kerala has developed?
+    - do you like technology?
+    - comment on our new developments
+    - comment on technology
+
+- intent: new_in_pathalam
+  examples: |
+    - what is new in pathalam?
+    - are you the new ruler of pathalam?
+    - how pathalam has developed?
+    - is there technology in pathalam?
+    - comment on developments in pathalam
+    - how is pathalam?
+
+- intent: route
+  examples: |
+    - how do you come to earth?
+    - how do you come here?
+    - what route do you use to come to earth?
+    - where exactly is pathalam?
+    - where is the location of pathalam?
+    - can I come to pathalam?
+    - why can't I see you?
+    - why do you come to earth invisible?
+    - when are you coming to earth non-invisible?
+    - why are you invisible?
+    - have you ever came to my house
+    - what are you doing in Pathalam?
+
+- intent: asura
+  examples: |
+    - are you an asura?
+    - are you bad?
+    - are you asura lord king?
+    - are you against gods?
+    - is maveli a villain?
+    - are you a villain?
+
+- intent: advice
+  examples: |
+    - do you have any advice?
+    - share some wisdom
+    - do you have anything to say to us?
+    - what are we doing wrong?
+    - what should we do?
+    - what should we change?
+    - can you give any advice for the rule or government?
+    - what is our government doing wrong?
+    - how to fix our issues?
