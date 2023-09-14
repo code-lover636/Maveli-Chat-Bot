@@ -82,7 +82,7 @@ Once the training is complete, you can start the chatbot using the following com
 rasa run -m models --enable-api --cors "*"
 ```
 
-The chatbot will be accessible at `http://localhost:5005`.
+Now open the index.html file in your browser to access the chatbot
 
 ## Usage
 
