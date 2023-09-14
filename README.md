@@ -41,6 +41,10 @@ Create a virtual environment to manage dependencies.
 ```bash
 python3 -m venv venv
 ```
+or 
+```
+python -m venv venv
+```
 
 Activate the virtual environment.
 
